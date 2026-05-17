@@ -38,6 +38,18 @@ document.getElementById("progress").textContent =
 
 }
 
+function showMeaning() {
+
+    document.getElementById("meaning").textContent =
+        words[current].meaning;
+}
+
+function showExample() {
+
+    document.getElementById("example").textContent =
+        words[current].example;
+}
+
 function showAnswer(){
 
      document.getElementById("meaning").textContent =
