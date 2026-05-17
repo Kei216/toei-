@@ -36,6 +36,8 @@ document.getElementById("example").textContent =
 document.getElementById("progress").textContent =
     `進捗: ${current + 1} / ${words.length}` ; 
 
+console.log("meaning cleared");
+
 }
 
 function showMeaning() {
