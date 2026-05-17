@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+
+    margin: 20px 0;
+}
+
+#meaning {
+
+    font-size: 24px;
+
+    color: #333;
+
+    min-height: 20px;
+}
+
+#example {
+
+    font-size: 18px;
+
+    color: #666;
+
+    margin-bottom: 20px;
+
+    min-height: 20px;
+}
+
+#progress {
+
+    color: gray;
+
+    margin-bottom: 10px;
+}
+
+button {
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 12px 20px;
+
+    margin: 5px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+button:hover {
+
+    background-color: #1d4ed8;
+}
+
+input {
+
+    margin-bottom: 20px;
+}

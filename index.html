@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>TOEIC単語アプリ</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="card">
+
+    <h1>TOEIC単語アプリ</h1>
+
+    <br>
+
+    <button onclick="normalMode()">
+        通常モード
+    </button>
+
+    <button onclick="reviewMode()"> 
+        復習モード
+    </button>
+
+    <button onclick="resetReview()">
+        復習リセット
+    </button>
+
+    <br>
+
+    <h2 id="word"></h2>
+
+    <button onclick="playAudio()">
+            音声を再生
+    </button>
+
+    <p id="meaning"></p>
+
+    <p id="example"></p>
+
+    <p id="progress"></p>
+
+    <button onclick="showAnswer()">
+        意味・例文を表示
+    </button>
+
+    <p id="progress"></p>
+
+    <button onclick="nextWord()">わかる</button>
+    <button onclick="unknownWord()">わからない</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
