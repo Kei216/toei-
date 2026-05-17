@@ -26,6 +26,12 @@ function showWord(){
 
 document.getElementById("word").textContent =
     words[current].word;
+
+ document.getElementById("meaning").textContent =
+        "";
+
+document.getElementById("example").textContent =
+        "";
     
 document.getElementById("progress").textContent =
     `進捗: ${current + 1} / ${words.length}` ; 
