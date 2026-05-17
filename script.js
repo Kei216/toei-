@@ -30,8 +30,6 @@ document.getElementById("word").textContent =
 document.getElementById("progress").textContent =
     `進捗: ${current + 1} / ${words.length}` ; 
 
-playAudio();
-
 }
 
 function showAnswer(){
@@ -144,7 +142,7 @@ fetch("words.csv")
                     word: parts[0].trim(),
                     meaning: parts[2].trim(),
                     example: parts[1].trim(),
-                    audio: parts[3].trim()
+                    audio: parts[4].trim()
                 });
             }
         }
