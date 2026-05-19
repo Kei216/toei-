@@ -162,7 +162,7 @@ fetch("words.csv")
                     word: parts[0].trim(),
                     meaning: parts[2].trim(),
                     example: parts[1].trim(),
-                    audio: parts[5].trim()
+                    audio: parts[4].trim()
                 });
             }
         }
