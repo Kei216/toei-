@@ -156,7 +156,7 @@ fetch("words.csv")
 
             const parts = line.split(",");
 
-            if (parts.length >= 4) {
+            if (parts.length >= 5) {
 
                 words.push({
                     word: parts[0].trim(),
